@@ -1,3 +1,0 @@
-[2023-05-24 11:55:18,602 INFO] model_arch: Moe1
-[2023-05-24 11:55:18,603 WARNING] You have chosen a specific GPU. This will completely disable data parallelism.
-[2023-05-24 11:55:18,603 WARNING] USE GPU: 0 for training
