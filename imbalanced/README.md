@@ -23,18 +23,18 @@ python cifar_train_lorot-E.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_ty
 python cifar_train_lorot-I.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type LDAM --train_rule DRW
 ```
 
-train moe G-SSL(LoRot-E+FLip+ChannelPerm)
+- train moe G-SSL(LoRot-E+FLip+ChannelPerm)
 ```
 python cifar_train_lorot-E_moe.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type LDAM --train_rule DRW --dataset cifar10 --epochs 300 --workers 2
 ```
-train moe-flip G-SSL(LoRot-E+FLip)
+- train moe-flip G-SSL(LoRot-E+FLip)
 ```
 python cifar_train_lorot-E_moe_flip.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type LDAM --train_rule DRW --dataset cifar10 --epochs 300 --workers 2
 ```
-train moe-sc G-SSL(LoRot-E+ChannelPerm)
+- train moe-sc G-SSL(LoRot-E+ChannelPerm)
 ```
 python cifar_train_lorot-E_moe_sc.py --gpu 0 --imb_type exp --imb_factor 0.01 --loss_type LDAM --train_rule DRW --dataset cifar10 --epochs 300 --workers 2
 ```
 ### Acknowledgement
 
-Implementations for Imbalanced Classification of LoRot is based on [LDAM-DRW](https://github.com/kaidic/LDAM-DRW)
+Implementations for Imbalanced Classification of LoRot is based on [Localizable-Rotation](https://github.com/wjun0830/Localizable-Rotation/tree/main/Imbalanced)
