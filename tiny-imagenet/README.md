@@ -6,7 +6,6 @@ This baseline and configuration is based on [OpenMixup-PuzzleMix](https://github
 wget http://cs231n.stanford.edu/tiny-imagenet-200.zip
 ```
 2. Extract into `data/` directory
-```
 
 ### Train
 ```
