@@ -1,7 +1,7 @@
 # G-SSL
 **Gated Self-Supervised Learning**
 
-[[Arxiv]]()
+[[Arxiv]](https://arxiv.org/abs/2307.14897)
 
 This is an official implementation for "Mixture of Self-Supervised Learning". This implementations only provide Tiny-Imagenet classification, imbalanced classification and adversarial perturbations.
 
